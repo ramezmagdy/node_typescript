@@ -1,0 +1,16 @@
+npm init
+npm install typescript -s
+
+Inside package.json file add script called tsc:
+"scripts": {
+    "tsc": "tsc"
+},
+
+npm run tsc -- --init
+
+Inside tsconfig.json file. uncomment the outDiroption -> "outDir": "./build",
+
+npm install debug
+npm install express
+npm install @types/debug
+npm install @types/express
